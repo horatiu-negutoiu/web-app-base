@@ -1,0 +1,5 @@
+bower_components/
+build/
+src/js/buildVars_autoBuild.json
+node_modules/
+.env

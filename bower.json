@@ -1,0 +1,46 @@
+{
+  "name": "07-gulp-test",
+  "description": "",
+  "main": "gulpfile.js",
+  "license": "ISC",
+  "homepage": "https://github.com/horatiu-negutoiu/gulp-bower-angular-1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "paths": {
+    "bowerDirectory": "./bower_components/",
+    "bowerJson": "./bower.json"
+  },
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.7",
+    "normalize-css": "normalize.css#^5.0.0",
+    "font-awesome": "fontawesome#^4.7.0",
+    "angular": "^1.6.0",
+    "jquery": "^3.1.1"
+  },
+  "debugging": true,
+  "overrides": {
+    "jquery": {
+      "main": {
+        "development": "dist/jquery.js",
+        "production": "dist/jquery.min.js"
+      }
+    },
+    "angular": {
+      "main": {
+        "development": "angular.js",
+        "production": "angular.min.js"
+      }
+    },
+    "bootstrap-sass": {
+      "main": {
+        "development": "assets/javascripts/bootstrap.js",
+        "production": "assets/javascripts/bootstrap.min.js"
+      }
+    }
+  }
+}

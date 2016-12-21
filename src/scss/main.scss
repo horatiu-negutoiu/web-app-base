@@ -1,0 +1,9 @@
+// Bootstrap overrides
+$btn-default-color: #444;
+
+// Import bootstrap and fontawesome
+@import "bootstrap";
+@import "font-awesome";
+
+// Additional App styles
+@import "./app_styles/app-styles.scss";
